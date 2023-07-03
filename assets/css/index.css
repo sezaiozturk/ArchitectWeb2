@@ -1,0 +1,191 @@
+.title{
+    font-size: 40px;
+    color: white;
+}
+.welcome-container{
+    background-color:#1D1D25;
+    position: relative;
+    display: flex;
+    height: 92%;
+    width: 100%;
+    top: 8%;
+}
+.welcome-message-container{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+    display: flex;
+    gap: 40px;
+    flex: 1;
+}
+.message{
+    font-family: italianno;
+   font-size: 100px;
+}
+.sub-message{
+    font-family: roboto;
+    font-size: 14px;
+}
+.welcome-image-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+.welcome-image{
+    background-image: url("../images/welcome.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 80%;
+    width:70%;
+}
+.welcome-grill{
+    background-image: url("../images/grill.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+}
+.aboutus-container{
+    background-color:#1D1D25;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.aboutus-card-container{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+    display: flex;
+    gap: 30px;
+
+}
+.aboutus-image-container{ 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 200px;
+   
+}
+.aboutus-image-container span{ 
+    text-align: center;
+    font-size: 40px;
+    color: white;
+ 
+}
+.who-are-us{
+    background-image: url("../images/img3.png");
+}
+.what-do-we{
+    background-image: url("../images/img1.png");
+}
+.our-motto{
+    background-image: url("../images/img2.png");
+}
+.aboutus-info-container{
+    background-image:  linear-gradient(78deg, #B4975B 0%, #8E6D25 100%);
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    border-radius: 25px;
+    font-family: inter;
+    line-height: 25px;
+    padding: 30px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    gap: 40px;
+}
+.aboutus-info-container span{
+    color: white;
+}
+.aboutus-info-container span:nth-child(2){
+    text-align:end;
+}
+.branch-container{
+    background-color:#1D1D25;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    user-select: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.branch-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.branch-content-container img{
+    height:80%;
+    width: 30%;
+    padding: 0px 25px;
+}
+.country-container{
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 80%;
+    width: 70%;
+}
+.country-content-container{
+    gap:20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.branch-image-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    position: relative;
+    margin: 0px 20px;
+    width: 40%;
+    height: 80%;
+    min-width: 150px;
+    display: flex;
+}
+.branch-image-container span{
+    font-family: inter;
+    font-size: 14px;
+    color: black;
+    margin: 15px;
+}
+.russia{
+    background-image: url(../images/country1.svg);
+}
+.turkey{
+    background-image: url(../images/country2.svg);
+}
+.germany{
+    background-image: url(../images/country3.svg);
+}
+.arabia{
+    background-image: url(../images/country4.svg);
+}
+.spain{
+    background-image: url(../images/country5.svg);
+}
+.france{
+    background-image: url(../images/country6.svg);
+}
+
+
