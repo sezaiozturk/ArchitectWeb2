@@ -187,5 +187,74 @@
 .france{
     background-image: url(../images/country6.svg);
 }
-
+.portfolyo-container{
+    background-color:#1D1D25;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+    user-select: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.portfolyo-content-container{
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap:20px;
+}
+.portfolyo-line{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+}
+.portfolyo-line div{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 90%;
+    width: 100%;
+    gap: 10px;
+}
+.portfolyo-line div:hover{
+    cursor: pointer;
+}
+.portfolyo-line div:hover>div{
+    transform: translateX(0%);
+    transition: transform 0.5s;
+}
+.portfolyo-line div>div{
+    background-color: rgba(13,13, 13, 0.5);
+    transform: translateX(-101%);
+    backdrop-filter: blur(2px);
+    transition: transform 0.5s;
+    border-radius: 20px;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    bottom:0;
+    right: 0;
+    left: 0;
+    top:0;
+}
+.portfolyo-line img{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+.portfolyo-content-title{
+    font-family: "italianno";
+    font-size: 50px;
+    color: white; 
+}
 
